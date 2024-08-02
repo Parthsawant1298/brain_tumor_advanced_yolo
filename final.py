@@ -7,7 +7,7 @@ import cv2
 import os
 
 # Constants
-MODEL_PATH_CNN ="models/mri.keras"
+MODEL_PATH_CNN = "models/mri.keras"
 MODEL_PATH_YOLO = "models/best_model (5).pt"
 OUTPUT_IMAGE_PATH = "annotated_image.jpg"
 CONFIDENCE_THRESHOLD = 0.5  # Confidence threshold for YOLO predictions
@@ -93,7 +93,7 @@ def main():
     cnn_model = load_cnn_model(MODEL_PATH_CNN)
     yolo_model = load_yolo_model(MODEL_PATH_YOLO)
 
-    uploaded_file = st.file_uploader("Choose an MRI image...", type="jpg")
+    uploaded_file = st.file_uploader("Choose an MRI image...", type=["jpg", "jpeg", "png"])
 
     if uploaded_file is not None:
         # Predict tumor type
