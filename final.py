@@ -7,8 +7,8 @@ import cv2
 import os
 
 # Constants
-MODEL_PATH_CNN = "C:\Users\parth sawant\Desktop\New folder\mri.keras"
-MODEL_PATH_YOLO = "C:\Users\parth sawant\Desktop\New folder\best_model (4).pt"
+MODEL_PATH_CNN ="C:/Users/parth sawant/Desktop/New folder/mri.keras"
+MODEL_PATH_YOLO = "C:/Users/parth sawant/Desktop/ folder/best_model (4).pt"
 OUTPUT_IMAGE_PATH = "C:\Users\parth sawant\Desktop\New folder\annotated_image.jpg"
 CONFIDENCE_THRESHOLD = 0.5  # Confidence threshold for YOLO predictions
 
