@@ -9,7 +9,7 @@ import os
 # Constants
 MODEL_PATH_CNN ="models/mri.keras"
 MODEL_PATH_YOLO = "models/best_model (4).pt"
-OUTPUT_IMAGE_PATH = "C:/Users/parth sawant/Desktop/New folder/annotated_image.jpg"
+OUTPUT_IMAGE_PATH = "annotated_image.jpg"
 CONFIDENCE_THRESHOLD = 0.5  # Confidence threshold for YOLO predictions
 
 # Define class labels for CNN
