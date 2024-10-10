@@ -100,7 +100,7 @@ def main():
         img = Image.open(uploaded_file)
         prediction, probabilities = predict_tumor(img, cnn_model)
         st.write(f"Prediction: {prediction}")
-        st.write(f"Prediction probabilities: {probabilities}")
+       
 
         # Save the uploaded image temporarily
         temp_image_path = "temp_image.jpg"
